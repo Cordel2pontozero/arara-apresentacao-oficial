@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cordel2pontozero.github.io/arara-apresentacao-oficial/sitemap.xml
