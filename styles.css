@@ -342,3 +342,23 @@ footer p { margin: 0.35rem 0 0; color: rgba(255,255,255,0.68); font-size: 0.85re
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+/* ---- Seletor de idioma (discreto) ---- */
+.header-actions { display: flex; align-items: center; gap: .75rem; }
+.lang-switch {
+  display: inline-flex; align-items: center; gap: 2px; padding: 2px;
+  border: 1px solid var(--line); border-radius: 999px;
+}
+.lang-switch button {
+  font: inherit; font-size: .72rem; font-weight: 600; letter-spacing: .04em;
+  line-height: 1; padding: .34rem .55rem; border: 0; border-radius: 999px;
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+.lang-switch button:hover { color: var(--ink); }
+.lang-switch button[aria-pressed="true"] { background: var(--teal); color: var(--white); }
+.lang-switch button:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+@media (max-width: 720px) {
+  .header-actions { gap: .5rem; }
+  .lang-switch button { padding: .3rem .42rem; font-size: .68rem; }
+}

@@ -306,7 +306,7 @@ O ARARA é um dos cinco softwares próprios da Cordel 2.0:
 ## Identidade e contato
 
 <div align="center">
-<img src="https://images.squarespace-cdn.com/content/v1/679647ea404fcd2e5824402c/4a7ae5af-77bf-4db7-9744-32a77947260d/LOGO%2BCORDEL-COLOR.png" alt="Logomarca oficial Cordel 2.0" width="180">
+<img src="./assets/cordel-logo-preto.png" alt="Logomarca oficial Cordel 2.0" width="180">
 
 **Cordel 2.0 Inova Simples (I.S.)**
 Formação em letramento digital com softwares próprios
