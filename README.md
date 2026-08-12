@@ -31,6 +31,10 @@ O **ARARA** é a plataforma autoral e pedagógica do ecossistema Cordel 2.0. Ela
 experiências de escrita, versionamento, indicadores formativos e mediação docente para
 apoiar a autoria — sem transformar a inteligência artificial em uma autora oculta.
 
+Ele não chega sozinho: o ARARA é o meio de **oficinas, programas e trilhas formativas** de
+letramento digital, leitura e escrita conduzidas pela Cordel 2.0. O que se contrata é
+formação; o software é como ela acontece.
+
 > **A tecnologia observa sinais, organiza percursos e sugere revisão.
 > A decisão final continua humana.**
 
@@ -254,14 +258,30 @@ Detalhes técnicos que importam:
 - camada semântica governada;
 - comunidade entre turmas.
 
-## Para quem o ARARA foi pensado
+## Como o ARARA entra na formação
+
+A Cordel 2.0 é uma startup de **formação, consultoria e design pedagógico**. O que
+entregamos é aprendizado; o software é o meio pelo qual ele acontece. O ARARA não é vendido
+como licença de ferramenta solta — ele sustenta oficinas, programas e trilhas formativas de
+letramento digital, leitura e escrita, com acompanhamento humano.
+
+| Frente | Como o ARARA entra |
+|---|---|
+| **B2B** | Escolas, redes privadas, cursinhos e institutos: programas de escrita e de preparação para o ENEM, com formação da equipe docente e uso do Espaço do Educador. |
+| **B2G** | Secretarias, políticas públicas e programas territoriais: oficinas de letramento digital e escrita em rede pública, com relatórios institucionais de percurso. |
+| **B2C** | Estudantes e escritores: acesso direto às trilhas e ao **simulador de redação ENEM**, com devolutiva por competência e plano de reescrita. |
+
+O **simulador de redação ENEM** atende às três frentes — é o mesmo motor de correção,
+mudando o desenho da formação em volta dele.
+
+### Para quem
 
 - escolas e redes de ensino;
 - cursinhos e programas de acesso ao ensino superior;
+- secretarias e programas públicos;
 - universidades e programas de formação docente;
 - projetos culturais e bibliotecas;
 - laboratórios de escrita;
-- iniciativas de letramento em IA;
 - instituições que desejam usar tecnologia sem substituir autoria.
 
 ## Documentação
