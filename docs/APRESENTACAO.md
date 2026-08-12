@@ -2,48 +2,43 @@
 
 ## 1. ARARA — Autoria em movimento
 
-**Trilhas de escrita que transformam tecnologia em percurso autoral.**
+**Uma plataforma, duas versões: Trilhas e ENEM.**
 
-Poética · Acadêmica · Educador · Em breve: Redação ENEM
+O ARARA nasce no Laboratório Cordel 2.0 como plataforma brasileira de escrita,
+acompanhamento pedagógico e letramento em inteligência artificial.
 
-O ARARA nasce no Laboratório Cordel 2.0 como uma plataforma brasileira de escrita, acompanhamento pedagógico e letramento em inteligência artificial.
+Acesse: **[arara.cordel2pontozero.com](https://arara.cordel2pontozero.com)**
 
 ---
 
 ## 2. O problema não é escrever mais rápido
 
-Quando a inteligência artificial produz textos em segundos, a educação precisa proteger algo mais valioso: o percurso de quem aprende a pensar, escrever, revisar e assumir a própria voz.
+Quando a inteligência artificial produz textos em segundos, a educação precisa proteger
+algo mais valioso: o percurso de quem aprende a pensar, escrever, revisar e assumir a
+própria voz.
 
-O ARARA foi desenhado para tornar esse percurso:
-
-- visível;
-- recuperável;
-- orientável;
-- pedagogicamente significativo.
+O ARARA foi desenhado para tornar esse percurso **visível, recuperável, orientável e
+pedagogicamente significativo**.
 
 ---
 
-## 3. Uma plataforma, quatro movimentos
+## 3. Duas versões, uma origem
+
+A plataforma começou pelas trilhas de escrita. A versão ENEM veio depois, construída sobre
+a mesma base de percurso, versionamento e mediação docente. São duas versões do mesmo
+produto — mesma arquitetura, mesmo princípio pedagógico, públicos e entregas distintas.
+
+| | **ARARA Trilhas** | **ARARA ENEM** |
+|---|---|---|
+| Entrega | Percurso autoral registrado, Raio-X do Texto, devolutiva pedagógica | Nota por competência C1–C5, devolutiva e plano de reescrita |
+| Público | Escolas, universidades, bibliotecas, projetos culturais | Estudantes de ensino médio, cursinhos, programas de acesso |
+| Estado | Em produção | Em produção desde 22/06/2026 |
+
+---
+
+## 4. ARARA Trilhas — três movimentos
 
 ### Trilha Poética
-
-Criação por versos, territórios poéticos, ecos, rimas e leitura métrica leve.
-
-### Trilha Acadêmica
-
-Contexto de escrita, checkpoints, histórico de versões e análise H2.
-
-### Espaço do Educador
-
-Acompanhamento de percursos, conflitos de escrita, indicadores e focos de revisão.
-
-### Redação ENEM
-
-Modo em desenvolvimento para ampliar a mesma lógica de autoria orientada.
-
----
-
-## 4. Trilha Poética
 
 **Um verso por vez. Um poema como percurso.**
 
@@ -57,43 +52,61 @@ Modo em desenvolvimento para ampliar a mesma lógica de autoria orientada.
 - leitura leve de rimas, ecos e métrica;
 - reconhecimento de autonomia.
 
-A Arara não escreve no lugar da pessoa. Ela oferece pistas para que cada participante continue com a própria voz.
+A Arara não escreve no lugar da pessoa. Ela oferece pistas para que cada participante
+continue com a própria voz.
 
----
+### Trilha Acadêmica e Motor H2
 
-## 5. Trilha Acadêmica e Motor H2
+A experiência começa pela situação da escrita — gênero, tema, objetivo, interlocutor.
 
-A experiência começa pela situação da escrita:
-
-- gênero;
-- tema;
-- objetivo;
-- interlocutor.
-
-O texto passa por autosave, checkpoints e histórico de versões. O Motor H2 gera um **Raio-X do Texto** com observações sobre estrutura, coesão, argumentação, estilo, situação de escrita e curadoria.
+O texto passa por autosave, checkpoints e histórico de versões. O Motor H2 gera um **Raio-X
+do Texto** com observações sobre estrutura, coesão, argumentação, estilo, situação de
+escrita e curadoria.
 
 O resultado não é uma sentença. É convertido em plano de revisão.
 
+### Espaço do Educador
+
+O educador acompanha textos e poemas em percurso, versões, leituras H2, conflitos de
+escrita, focos de revisão, indicadores poéticos e devolutivas vinculadas ao texto.
+
+A base técnica prepara recorte por turma, timeline por estudante, permissões docentes e
+assistência da Arara para mediação pedagógica.
+
 ---
 
-## 6. Espaço do Educador
+## 5. ARARA ENEM — correção com ancoragem na matriz
 
-O educador pode acompanhar:
+O exame submete cada redação a **duas correções independentes**, e a nota final é a **média
+aritmética** das duas. O ARARA ENEM reproduz esse desenho:
 
-- textos e poemas em percurso;
-- versões;
-- leituras H2;
-- conflitos de escrita;
-- focos de revisão;
-- indicadores poéticos;
-- devolutivas vinculadas ao texto.
+1. leitura da proposta e do texto do estudante;
+2. duas leituras independentes da mesma redação;
+3. pontuação por competência, **C1 a C5**, ancorada na matriz de referência do INEP;
+4. média aritmética entre as leituras, sem arredondamento para baixo;
+5. devolutiva por competência;
+6. plano de reescrita.
 
-A base técnica prepara:
+**O produto final é a próxima versão do texto, não a nota.** O sistema corrige e orienta a
+reescrita; ele não gera a redação do estudante. É decisão de produto, não limitação
+técnica.
 
-- recorte por turma;
-- timeline por estudante;
-- permissões docentes;
-- assistência da Arara para mediação pedagógica.
+---
+
+## 6. Evidência: validação contra correção pericial
+
+- **385 redações** de ENEM corrigidas por **2 especialistas humanos** cada;
+- **179 redações nota 1000** como teto de referência;
+- **manifesto SHA256** amarrando dados, resultados e código.
+
+Dois achados públicos:
+
+- **peritos humanos divergem em mais de 100 pontos em 37% das redações** — o piso realista
+  de concordância para qualquer corretor;
+- **encontramos e corrigimos um erro nosso** que arredondava para baixo em 47% das notas de
+  competência, subtraindo em média 113 pontos do estudante.
+
+Detalhes em [EVIDENCIAS.md](./EVIDENCIAS.md).
 
 ---
 
@@ -113,50 +126,34 @@ A base técnica prepara:
 
 ## 8. Engenharia que sustenta a experiência
 
-- Next.js 16;
-- React 19;
-- TypeScript 6;
-- Supabase SSR;
-- Postgres;
-- Row Level Security;
-- RPCs para regras de acesso;
-- Edge Functions;
-- magic link;
-- validação por check-in e turma;
-- Zod;
-- autosave;
-- versionamento;
-- analysis_runs;
-- testes dedicados;
-- Vercel Analytics.
+Next.js 16 · React 19 · TypeScript 6 · Supabase SSR · Postgres · Row Level Security ·
+RPCs · Edge Functions · magic link · validação por check-in e turma · Zod · autosave ·
+versionamento · `analysis_runs` · serviço dedicado de correção ENEM · testes dedicados ·
+Vercel Analytics.
 
-O detalhe nerd está a serviço da experiência: segurança, rastreabilidade e evolução modular.
+O detalhe nerd está a serviço da experiência: segurança, rastreabilidade e evolução
+modular.
 
 ---
 
 ## 9. O que já existe e o que vem agora
 
-### Hoje
+### Em produção
 
-- autenticação segura;
-- Trilhas Poética e Acadêmica;
-- Motor H2;
+- autenticação segura e validação de acesso;
+- ARARA Trilhas — Poética, Acadêmica, Motor H2;
+- ARARA ENEM — correção C1–C5 com dupla leitura;
 - dashboard;
 - primeira camada do Educador;
 - base estrutural de comunidade.
 
 ### Próxima etapa
 
-- recortes por turma;
-- timeline de evolução;
+- recortes por turma e timeline de evolução;
 - permissões docentes ampliadas;
+- dashboard de evolução por competência;
+- banco de temas com textos motivadores;
 - Arara colega Educador.
-
-### Em desenvolvimento
-
-- modo Redação ENEM;
-- camada semântica governada;
-- comunidade entre turmas.
 
 ### Visão
 
@@ -166,10 +163,13 @@ Um ecossistema brasileiro de escrita, autoria e letramento em IA.
 
 ## 10. Tecnologia com posição pedagógica
 
-O ARARA é destinado a escolas, universidades, projetos culturais, bibliotecas e redes que desejam usar inteligência artificial sem apagar a autoria.
+O ARARA é destinado a escolas, redes de ensino, cursinhos, universidades, projetos
+culturais, bibliotecas e instituições que desejam usar inteligência artificial sem apagar a
+autoria.
 
 **Pilotos · parcerias educacionais · desenvolvimento institucional**
 
-- www.cordel2pontozero.com
+- [arara.cordel2pontozero.com](https://arara.cordel2pontozero.com)
+- [www.cordel2pontozero.com](https://www.cordel2pontozero.com)
 - contato@cordel2pontozero.com
 - Salvador — Bahia — Brasil

@@ -4,18 +4,18 @@
 
 # ARARA — Autoria em movimento
 
-### Plataforma educacional brasileira para escrita poética, acadêmica e acompanhamento pedagógico
+### Plataforma brasileira de escrita, acompanhamento pedagógico e letramento em IA
 
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-F28C28)](#estado-do-produto)
-[![Next.js](https://img.shields.io/badge/Next.js-16-111111?logo=nextdotjs)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-Postgres-3FCF8E?logo=supabase&logoColor=white)](https://supabase.com/)
-[![Licença de código](https://img.shields.io/badge/código-MIT-146A6F)](LICENSE.md)
+[![Produção](https://img.shields.io/badge/status-em%20produção-146A6F)](#estado-do-produto)
+[![Trilhas](https://img.shields.io/badge/versão-Trilhas-F28C28)](#arara-trilhas)
+[![ENEM](https://img.shields.io/badge/versão-ENEM-B5342A)](#arara-enem)
+[![Evidência](https://img.shields.io/badge/validação-385%20redações%20periciadas-146A6F)](./docs/EVIDENCIAS.md)
+[![Software proprietário](https://img.shields.io/badge/software-proprietário-111111)](LICENSE.md)
 [![Conteúdo](https://img.shields.io/badge/conteúdo-CC%20BY--ND%204.0-F28C28)](LICENSE.md)
 
-**Poética · Acadêmica · Espaço do Educador · Em breve: Redação ENEM**
+**Uma plataforma, duas versões: Trilhas e ENEM**
 
-[Ver apresentação](./docs/APRESENTACAO.md) · [Arquitetura](./docs/ARQUITETURA.md) · [Roadmap](./docs/ROADMAP.md) · [Laboratório Cordel 2.0](https://www.cordel2pontozero.com/laboratorio)
+[Acessar o ARARA](https://arara.cordel2pontozero.com) · [Apresentação](./docs/APRESENTACAO.md) · [Evidências](./docs/EVIDENCIAS.md) · [Arquitetura](./docs/ARQUITETURA.md) · [Roadmap](./docs/ROADMAP.md)
 
 </div>
 
@@ -23,25 +23,51 @@
 
 ## Educação com IA não pode apagar o percurso humano
 
-Quando sistemas generativos produzem textos em segundos, a questão educacional deixa de ser apenas **como escrever mais rápido**. O desafio passa a ser preservar e tornar visível o caminho de quem aprende a imaginar, argumentar, revisar e assumir a própria voz.
+Quando sistemas generativos produzem textos em segundos, a questão educacional deixa de
+ser **como escrever mais rápido**. O desafio passa a ser preservar e tornar visível o
+caminho de quem aprende a imaginar, argumentar, revisar e assumir a própria voz.
 
-O **ARARA** é uma plataforma autoral e pedagógica do ecossistema Cordel 2.0. Ela combina experiências de escrita, versionamento, indicadores formativos e mediação docente para apoiar a autoria — sem transformar a inteligência artificial em uma autora oculta.
+O **ARARA** é a plataforma autoral e pedagógica do ecossistema Cordel 2.0. Ela combina
+experiências de escrita, versionamento, indicadores formativos e mediação docente para
+apoiar a autoria — sem transformar a inteligência artificial em uma autora oculta.
 
-> **A tecnologia observa sinais, organiza percursos e sugere revisão.  
+> **A tecnologia observa sinais, organiza percursos e sugere revisão.
 > A decisão final continua humana.**
 
-## Quatro movimentos do produto
+---
+
+## Duas versões, uma origem
+
+O ARARA nasceu como plataforma de trilhas de escrita. A versão ENEM veio depois, sobre a
+mesma base de percurso, versionamento e mediação docente. **São duas versões do mesmo
+produto** — por isso vivem na mesma origem, compartilham arquitetura e princípio
+pedagógico, e se diferenciam pelo que entregam e para quem.
+
+| | **ARARA Trilhas** | **ARARA ENEM** |
+|---|---|---|
+| **O que é** | Trilhas de escrita poética e acadêmica com acompanhamento docente | Correção de redação dissertativo-argumentativa com ancoragem na matriz do ENEM |
+| **Para quem** | Escolas, universidades, bibliotecas, projetos culturais, laboratórios de escrita | Estudantes de ensino médio, cursinhos, redes de preparação, projetos de acesso ao ensino superior |
+| **Entrega** | Percurso autoral registrado, Raio-X do Texto, devolutiva pedagógica | Nota por competência (C1–C5), devolutiva por competência e plano de reescrita |
+| **Diferencial** | Torna o processo de escrita visível e recuperável | Dupla leitura independente e média aritmética, como no ENEM real |
+| **Estado** | Em produção | **Em produção desde 22/06/2026** |
+| **Evidência** | Motor H2 com testes dedicados | [385 redações periciadas por 2 especialistas humanos](./docs/EVIDENCIAS.md) |
+
+---
+
+## ARARA Trilhas
+
+A versão de origem. Três movimentos que sustentam o percurso autoral.
 
 | Movimento | Experiência |
 |---|---|
 | **Trilha Poética** | Criação verso a verso, territórios poéticos, sentimentos, ecos, rimas, estimativa métrica e histórico do poema. |
 | **Trilha Acadêmica** | Contexto de escrita, autosave, checkpoints, versões e o **Motor H2**, que transforma análise em foco de revisão. |
 | **Espaço do Educador** | Leitura de percursos, textos, poemas, conflitos de escrita, indicadores e devolutivas pedagógicas. |
-| **Redação ENEM** | Modo em desenvolvimento, construído sobre a mesma lógica de autoria orientada, transparência e revisão progressiva. |
 
-## Trilha Poética
+### Trilha Poética
 
-A escrita acontece **um verso por vez**. Cada poema pode ser salvo, reaberto, concluído e revisado, mantendo rastros do processo criativo.
+A escrita acontece **um verso por vez**. Cada poema pode ser salvo, reaberto, concluído e
+revisado, mantendo rastros do processo criativo.
 
 Apoios disponíveis:
 
@@ -52,9 +78,10 @@ Apoios disponíveis:
 - reconhecimento de autonomia quando a escrita começa sem ajuda;
 - leitura leve de rimas, ecos finais, sílabas poéticas e pulso métrico.
 
-A Arara não entrega um poema pronto: ela cria condições para que a pessoa encontre uma imagem e continue com sua própria voz.
+A Arara não entrega um poema pronto: ela cria condições para que a pessoa encontre uma
+imagem e continue com sua própria voz.
 
-## Trilha Acadêmica e Motor H2
+### Trilha Acadêmica e Motor H2
 
 A trilha acadêmica organiza a produção como um percurso verificável:
 
@@ -65,32 +92,92 @@ A trilha acadêmica organiza a produção como um percurso verificável:
 5. seleção de focos de revisão;
 6. produção de uma nova versão.
 
-O Motor H2 observa dimensões como:
+O Motor H2 observa dimensões como situação de escrita, estrutura e progressão, coesão,
+argumentação, estilo e clareza, curadoria e referências.
 
-- situação de escrita;
-- estrutura e progressão;
-- coesão;
-- argumentação;
-- estilo e clareza;
-- curadoria e referências.
+A análise não funciona como sentença automática. Ela é convertida em perguntas,
+prioridades e próximos passos.
 
-A análise não funciona como sentença automática. Ela é convertida em perguntas, prioridades e próximos passos.
+### Espaço do Educador
 
-## Espaço do Educador
+A área docente foi desenhada para ampliar a mediação — não para criar vigilância
+algorítmica. Ela permite acompanhar textos e poemas em percurso, versões e checkpoints,
+leituras H2, conflitos de escrita, focos de revisão, indicadores poéticos e devolutivas
+vinculadas ao trabalho do estudante.
 
-A área docente foi desenhada para ampliar a mediação — não para criar vigilância algorítmica.
+A arquitetura já prepara recortes por turma, linha do tempo individual, permissões
+docentes e uma futura camada de assistência denominada **Arara colega Educador**.
 
-Ela permite acompanhar:
+---
 
-- textos e poemas em percurso;
-- versões e checkpoints;
-- leituras H2;
-- conflitos de escrita;
-- focos de revisão;
-- indicadores poéticos;
-- devolutivas vinculadas ao trabalho do estudante.
+## ARARA ENEM
 
-A arquitetura já prepara recortes por turma, linha do tempo individual, permissões docentes e uma futura camada de assistência denominada **Arara colega Educador**.
+A versão de correção de redação. **Em produção desde 22 de junho de 2026**, com serviço
+de correção em domínio próprio e validação contra corpus pericial.
+
+### Como corrige
+
+O ENEM real submete cada redação a **duas correções independentes**, e a nota final é a
+**média aritmética** das duas — é por isso que notas como 860, 940 e 980 existem. O ARARA
+ENEM reproduz esse desenho:
+
+1. leitura da proposta e do texto do estudante;
+2. **duas leituras independentes** da mesma redação;
+3. pontuação por competência, **C1 a C5**, ancorada na matriz de referência do INEP;
+4. média aritmética entre as duas leituras, sem arredondamento para baixo;
+5. devolutiva por competência;
+6. plano de reescrita — o produto final é a próxima versão, não a nota.
+
+### O que o diferencia
+
+- **Ancoragem na matriz do INEP**, competência por competência, e não uma nota global
+  opaca.
+- **Dupla leitura independente**, o mesmo mecanismo que o exame usa para reduzir o peso da
+  subjetividade de um único corretor.
+- **Validação contra corpus pericial** — não contra a própria intuição da equipe. Ver
+  [Evidências](./docs/EVIDENCIAS.md).
+- **A redação não é gerada.** O sistema corrige e orienta a reescrita; ele não escreve a
+  redação do estudante. Essa é uma decisão de produto, não uma limitação técnica.
+
+### Estado
+
+- serviço de correção publicado em domínio próprio da Cordel 2.0;
+- integração validada em produção com redação real;
+- bancada de evidências congelada com manifesto de integridade;
+- disponível para pilotos institucionais.
+
+---
+
+## Evidência: por que confiamos na correção
+
+Um corretor automático de redação só vale o que sua validação demonstra. A bancada de
+evidências do ARARA ENEM foi construída contra **redações reais periciadas por
+especialistas humanos**, não contra exemplos escolhidos pela própria equipe.
+
+- **385 redações** de ENEM, cada uma corrigida por **dois especialistas humanos**
+  independentes, seguindo o Manual do Corretor — corpus acadêmico público produzido por
+  universidade brasileira;
+- **179 redações nota 1000** reais, como teto de referência;
+- **manifesto SHA256** amarrando dados, resultados e o código que os gerou, de modo que o
+  relatório descreva um estado congelado e verificável.
+
+Dois achados que mudaram o produto:
+
+**Peritos humanos discordam mais do que se imagina.** Em **37% das redações**, os dois
+especialistas diferiram em mais de 100 pontos no total. Isso estabelece o piso realista de
+concordância que qualquer corretor — humano ou automático — pode alcançar.
+
+**Encontramos e corrigimos um erro que prejudicava o estudante.** Ao combinar as duas
+leituras, o sistema arredondava para baixo em **47% das notas de competência**, tirando em
+média **113 pontos** do estudante em relação ao que dois corretores humanos dariam. O erro
+foi corrigido e documentado.
+
+Publicar o segundo achado é deliberado: **um sistema de avaliação que não expõe os próprios
+defeitos não deveria ser usado para avaliar ninguém.**
+
+Leia [`docs/EVIDENCIAS.md`](./docs/EVIDENCIAS.md).
+
+---
 
 ## IA ajustada para apoiar autoria
 
@@ -116,11 +203,13 @@ Essa separação favorece transparência, auditabilidade e uso pedagógico respo
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│ Experiência: Trilha Poética · Acadêmica · Educador           │
+│ Experiência: Trilhas (Poética · Acadêmica · Educador) + ENEM │
 ├──────────────────────────────────────────────────────────────┤
 │ Aplicação: Next.js 16 · React 19 · TypeScript 6 · Zod        │
 ├──────────────────────────────────────────────────────────────┤
 │ Percurso: autosave · checkpoints · versões · analysis_runs   │
+├──────────────────────────────────────────────────────────────┤
+│ Correção ENEM: serviço dedicado · dupla leitura · C1–C5      │
 ├──────────────────────────────────────────────────────────────┤
 │ Dados: Supabase SSR · Postgres · RPCs · Edge Functions       │
 ├──────────────────────────────────────────────────────────────┤
@@ -138,80 +227,79 @@ Detalhes técnicos que importam:
 - autenticação por magic link;
 - vínculo entre perfil, check-in e turma;
 - versionamento persistente dos textos;
+- correção ENEM isolada em serviço próprio, fora do navegador;
 - testes dedicados ao Motor H2, relatórios, feedback e repertório;
-- arquitetura modular preparada para novas trilhas.
+- arquitetura modular preparada para novas versões.
 
 ## Estado do produto
 
-### Disponível na base atual
+### Em produção
 
-- autenticação por magic link;
-- validação de acesso por check-in;
+- autenticação por magic link e validação de acesso por check-in;
 - vínculo com turma ou usuário externo;
-- Trilha Poética;
-- Trilha Acadêmica;
-- Motor H2 e Raio-X do Texto;
+- **ARARA Trilhas** — Poética, Acadêmica, Motor H2 e Raio-X do Texto;
+- **ARARA ENEM** — correção C1–C5 com dupla leitura;
 - autosave, checkpoints e histórico;
 - dashboard do estudante;
 - primeira camada do Espaço do Educador;
-- base estrutural de comunidade;
-- analytics de produto.
+- base estrutural de comunidade e analytics de produto.
 
 ### Em evolução
 
 - permissões docentes ampliadas;
 - recorte por turma e timeline por estudante;
 - assistência da Arara para educadores;
+- dashboard de evolução por competência;
+- banco de temas com textos motivadores;
 - camada semântica governada;
-- comunidade entre turmas;
-- modo Redação ENEM.
+- comunidade entre turmas.
 
 ## Para quem o ARARA foi pensado
 
 - escolas e redes de ensino;
+- cursinhos e programas de acesso ao ensino superior;
 - universidades e programas de formação docente;
 - projetos culturais e bibliotecas;
 - laboratórios de escrita;
 - iniciativas de letramento em IA;
 - instituições que desejam usar tecnologia sem substituir autoria.
 
-## Apresentação comercial
-
-Esta página funciona como vitrine oficial do produto. A narrativa completa está em:
+## Documentação
 
 - [Apresentação institucional](./docs/APRESENTACAO.md)
+- [Evidências e validação](./docs/EVIDENCIAS.md)
 - [Arquitetura técnica](./docs/ARQUITETURA.md)
 - [Roadmap](./docs/ROADMAP.md)
 
-Também existe uma versão web responsiva em [`index.html`](./index.html), preparada para publicação por GitHub Pages.
+## O ecossistema Cordel 2.0
 
-## Publicação no GitHub Pages
+O ARARA é um dos cinco softwares próprios da Cordel 2.0:
 
-Depois de enviar os arquivos:
-
-1. abra **Settings → Pages**;
-2. em **Build and deployment**, selecione **Deploy from a branch**;
-3. escolha `main` e `/ (root)`;
-4. salve.
-
-Endereço esperado:
-
-**https://cordel2pontozero.github.io/arara-apresentacao-oficial/**
+| Software | O que é |
+|---|---|
+| **ARARA** | Trilhas de escrita e correção ENEM — *este repositório* |
+| [**INANNA**](https://github.com/Cordel2pontozero/Inanna-apresentacao-oficial) | Jogo de cordel que torna visível a previsão da próxima palavra |
+| [**TICA**](https://github.com/Cordel2pontozero/tica-apresentacao-oficial) | Chatbot reflexivo de escrita guiada |
+| [**Registro Coletivo**](https://github.com/Cordel2pontozero/registro-coletivo-apresentacao) | Território, xilogravura e construtor de espaços culturais |
+| [**Dataset Popular Brasileiro**](https://github.com/Cordel2pontozero/dataset-popular-Brasileiro) | Dataset aberto de cultura popular |
 
 ## Identidade e contato
 
 <div align="center">
 <img src="https://images.squarespace-cdn.com/content/v1/679647ea404fcd2e5824402c/4a7ae5af-77bf-4db7-9744-32a77947260d/LOGO%2BCORDEL-COLOR.png" alt="Logomarca oficial Cordel 2.0" width="180">
 
-**Cordel 2.0 Inova Simples (I.S.)**  
-Inovação · Criação · Letramento em IA  
+**Cordel 2.0 Inova Simples (I.S.)**
+Formação em letramento digital com softwares próprios
 Salvador — Bahia — Brasil
 
-[www.cordel2pontozero.com](https://www.cordel2pontozero.com)  
-[contato@cordel2pontozero.com](mailto:contato@cordel2pontozero.com)
+[www.cordel2pontozero.com](https://www.cordel2pontozero.com) · [contato@cordel2pontozero.com](mailto:contato@cordel2pontozero.com)
 
 </div>
 
 ## Licenciamento
 
-O código deste repositório é disponibilizado sob a **Licença MIT**. Textos institucionais, conteúdos editoriais e materiais autorais seguem **CC BY-ND 4.0**, conforme detalhado em [LICENSE.md](LICENSE.md).
+O **software ARARA é proprietário** — todos os direitos reservados. Este repositório contém
+apenas a página de apresentação do produto. Textos institucionais e materiais autorais
+seguem **CC BY-ND 4.0**. Detalhes em [LICENSE.md](LICENSE.md).
+
+Pilotos, parcerias e uso educacional: **contato@cordel2pontozero.com**.

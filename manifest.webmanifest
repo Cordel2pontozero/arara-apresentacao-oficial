@@ -1,7 +1,7 @@
 {
   "name": "ARARA — Autoria em movimento",
   "short_name": "ARARA",
-  "description": "Plataforma educacional brasileira para autoria, escrita e letramento em IA.",
+  "description": "Plataforma brasileira de escrita em duas versões: Trilhas e correção de redação ENEM.",
   "lang": "pt-BR",
   "start_url": "./",
   "display": "standalone",

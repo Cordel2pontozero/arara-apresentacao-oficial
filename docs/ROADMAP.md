@@ -2,24 +2,50 @@
 
 ## Princípio
 
-O roadmap prioriza funcionalidades que ampliem autoria, mediação e transparência antes de aumentar automação.
+O roadmap prioriza funcionalidades que ampliem autoria, mediação e transparência antes de
+aumentar automação.
 
-## Horizonte 1 — Consolidar o núcleo
+---
 
-**Estado:** base implementada e em refinamento.
+## Entregue — Núcleo autoral (ARARA Trilhas)
+
+**Estado:** em produção.
 
 - Trilha Poética;
 - Trilha Acadêmica;
-- Motor H2;
-- autosave;
-- versões e checkpoints;
-- autenticação por check-in;
-- vínculo por turma;
+- Motor H2 e Raio-X do Texto;
+- autosave, versões e checkpoints;
+- autenticação por check-in e vínculo por turma;
 - dashboard;
 - primeira área do Educador;
 - telemetria básica.
 
-## Horizonte 2 — Aprofundar a mediação
+## Entregue — Correção ENEM (ARARA ENEM)
+
+**Estado:** em produção desde 22 de junho de 2026.
+
+- serviço de correção em domínio próprio da Cordel 2.0;
+- duas leituras independentes da mesma redação;
+- pontuação por competência C1–C5 ancorada na matriz do INEP;
+- média aritmética entre leituras, sem arredondamento para baixo;
+- devolutiva por competência e plano de reescrita;
+- integração validada em produção com redação real.
+
+## Entregue — Bancada de evidências
+
+**Estado:** congelada em julho de 2026.
+
+- 385 redações periciadas por 2 especialistas humanos cada;
+- 179 redações nota 1000 como teto de referência;
+- manifesto SHA256 amarrando dados, resultados e código;
+- identificação e correção do erro de arredondamento;
+- artigo acadêmico derivado dos achados, em preparação.
+
+Ver [EVIDENCIAS.md](./EVIDENCIAS.md).
+
+---
+
+## Horizonte 1 — Aprofundar a mediação
 
 - recorte por turma;
 - timeline de evolução;
@@ -28,6 +54,14 @@ O roadmap prioriza funcionalidades que ampliem autoria, mediação e transparên
 - comparativos entre versões;
 - painéis de acompanhamento;
 - Arara colega Educador.
+
+## Horizonte 2 — Ampliar a experiência ENEM
+
+- dashboard de evolução por competência;
+- banco de temas com textos motivadores;
+- acompanhamento longitudinal de reescrita;
+- relatórios institucionais por turma;
+- ampliação do corpus de validação.
 
 ## Horizonte 3 — Camada semântica governada
 
@@ -39,20 +73,7 @@ O roadmap prioriza funcionalidades que ampliem autoria, mediação e transparên
 - explicabilidade das devolutivas;
 - revisão humana obrigatória nos fluxos sensíveis.
 
-## Horizonte 4 — Redação ENEM
-
-**Estado:** em desenvolvimento.
-
-Objetivos:
-
-- organizar o percurso de escrita dissertativo-argumentativa;
-- apoiar leitura da proposta;
-- acompanhar versões;
-- trabalhar tese, argumentos e intervenção;
-- articular análise técnica e mediação docente;
-- evitar geração automática de redação como produto final.
-
-## Horizonte 5 — Comunidade e interoperabilidade
+## Horizonte 4 — Comunidade e interoperabilidade
 
 - canais por turma;
 - diálogo entre turmas;
@@ -60,7 +81,9 @@ Objetivos:
 - exportação de percursos;
 - relatórios institucionais;
 - APIs documentadas;
-- integração com outros produtos do ecossistema Cordel 2.0.
+- integração com os demais softwares do ecossistema Cordel 2.0.
+
+---
 
 ## Critérios de priorização
 
