@@ -152,7 +152,7 @@ ENEM reproduz esse desenho:
 
 ---
 
-## Evidência: por que confiamos na correção
+## Evidência: o que a validação mostrou, inclusive contra nós
 
 Um corretor automático de redação só vale o que sua validação demonstra. A bancada de
 evidências do ARARA ENEM foi construída contra **redações reais periciadas por
@@ -161,23 +161,34 @@ especialistas humanos**, não contra exemplos escolhidos pela própria equipe.
 - **385 redações** de ENEM, cada uma corrigida por **dois especialistas humanos**
   independentes, seguindo o Manual do Corretor — corpus acadêmico público produzido por
   universidade brasileira;
-- **179 redações nota 1000** reais, como teto de referência;
+- **99 redações nota 1000** reais, como teste do topo;
+- **180 redações pareadas** entre a grade padrão e a inclusiva;
 - **manifesto SHA256** amarrando dados, resultados e o código que os gerou, de modo que o
   relatório descreva um estado congelado e verificável.
 
-Dois achados que mudaram o produto:
-
 **Peritos humanos discordam mais do que se imagina.** Em **37% das redações**, os dois
-especialistas diferiram em mais de 100 pontos no total. Isso estabelece o piso realista de
-concordância que qualquer corretor — humano ou automático — pode alcançar.
+especialistas diferiram em mais de 100 pontos **na nota total**. O teto humano medido —
+perito contra perito — é **QWK 0,693**. Isso estabelece o piso realista de concordância que
+qualquer corretor, humano ou automático, pode alcançar.
 
 **Encontramos e corrigimos um erro que prejudicava o estudante.** Ao combinar as duas
 leituras, o sistema arredondava para baixo em **47% das notas de competência**, tirando em
-média **113 pontos** do estudante em relação ao que dois corretores humanos dariam. O erro
-foi corrigido e documentado.
+média **113 pontos** do estudante. Corrigido, com o risco de inflação medido antes da
+mudança: redações acima de 200 pontos do humano foram de 7 para 9, em 385.
 
-Publicar o segundo achado é deliberado: **um sistema de avaliação que não expõe os próprios
-defeitos não deveria ser usado para avaliar ninguém.**
+**E encontramos um erro na nossa própria régua.** A referência humana da bancada tinha sido
+montada com o mesmo arredondamento defeituoso que investigávamos, o que nos fazia parecer
+melhores. Corrigida a régua, o corretor está em **58–74% do teto humano**, e sua vantagem
+sobre um preditor que só conta caracteres **deixa de ser estatisticamente demonstrável**
+neste n e nesta calibração. Removida a deflação, o mesmo corretor chega a 95% do teto — a
+capacidade de discriminar existe; o que está errado é a calibração, e essa é a prioridade
+atual.
+
+**O que ainda está aberto:** o sistema dá em média 762 nas redações que tiraram 1000 de
+verdade, sobram 44 pontos de deflação, e a Competência 2 é a mais fraca.
+
+Publicar isto é deliberado: **um sistema de avaliação que não expõe os próprios defeitos não
+deveria ser usado para avaliar ninguém.**
 
 Leia [`docs/EVIDENCIAS.md`](./docs/EVIDENCIAS.md).
 
@@ -308,7 +319,7 @@ O ARARA é um dos cinco softwares próprios da Cordel 2.0:
 <div align="center">
 <img src="./assets/cordel-logo-preto.png" alt="Logomarca oficial Cordel 2.0" width="180">
 
-**Cordel 2.0 Inova Simples (I.S.)**
+**Cordel 2.0 - Educação, Cultura e Inovação**
 Formação em letramento digital com softwares próprios
 Salvador — Bahia — Brasil
 

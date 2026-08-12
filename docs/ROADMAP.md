@@ -36,14 +36,29 @@ aumentar automação.
 **Estado:** congelada em julho de 2026.
 
 - 385 redações periciadas por 2 especialistas humanos cada;
-- 179 redações nota 1000 como teto de referência;
+- 99 redações nota 1000 reais como teste do topo;
+- 180 redações pareadas entre grade padrão e inclusiva;
 - manifesto SHA256 amarrando dados, resultados e código;
 - identificação e correção do erro de arredondamento;
+- **errata publicada**: a referência humana da bancada também estava arredondada, o que nos
+  favorecia. Corrigida e registrada, não apagada;
 - artigo acadêmico derivado dos achados, em preparação.
 
 Ver [EVIDENCIAS.md](./EVIDENCIAS.md).
 
 ---
+
+## Horizonte 0 — Calibração da deflação `prioridade atual`
+
+A errata da bancada mostrou que a capacidade de discriminar existe, mas a régua está
+deslocada: removida a deflação, o corretor vai de 58–74% para **95% do teto humano**.
+Enquanto isso não for corrigido, a vantagem sobre uma baseline trivial não é demonstrável.
+
+- calibrar o viés de −112,9 na nota total;
+- eliminar os 44 pontos de deflação residual;
+- destravar a faixa de 200 em C3, C4 e C5 — hoje 0 em 99 redações nota 1000;
+- reforçar a avaliação de repertório (Competência 2), a mais distante do julgamento humano;
+- reexecutar a bancada com a régua corrigida e publicar o comparativo.
 
 ## Horizonte 1 — Aprofundar a mediação
 

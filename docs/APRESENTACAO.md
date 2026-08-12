@@ -96,15 +96,23 @@ técnica.
 ## 6. Evidência: validação contra correção pericial
 
 - **385 redações** de ENEM corrigidas por **2 especialistas humanos** cada;
-- **179 redações nota 1000** como teto de referência;
+- **99 redações nota 1000** reais como teste do topo;
 - **manifesto SHA256** amarrando dados, resultados e código.
 
-Dois achados públicos:
+Achados públicos:
 
-- **peritos humanos divergem em mais de 100 pontos em 37% das redações** — o piso realista
-  de concordância para qualquer corretor;
+- **peritos humanos divergem em mais de 100 pontos na nota total em 37% das redações** — o
+  piso realista de concordância para qualquer corretor. Teto humano medido: QWK 0,693;
 - **encontramos e corrigimos um erro nosso** que arredondava para baixo em 47% das notas de
-  competência, subtraindo em média 113 pontos do estudante.
+  competência, subtraindo em média 113 pontos do estudante;
+- **e encontramos um erro na nossa própria régua:** a referência humana da bancada havia
+  sido montada com o mesmo arredondamento defeituoso, o que nos favorecia. Corrigida, o
+  corretor fica em 58–74% do teto humano e sua vantagem sobre um contador de caracteres
+  deixa de ser estatisticamente demonstrável neste n. Removida a deflação, chega a 95% do
+  teto — a calibração é a prioridade atual.
+
+**O que segue aberto:** média de 762 nas redações que tiraram 1000 de verdade, 44 pontos de
+deflação residual e a Competência 2 como a mais fraca.
 
 Detalhes em [EVIDENCIAS.md](./EVIDENCIAS.md).
 
