@@ -1,6 +1,6 @@
-# Apresentação oficial — ARARA
+# Apresentação oficial - ARARA
 
-## 1. ARARA — Autoria em movimento
+## 1. ARARA - Autoria em movimento
 
 **Uma plataforma, duas versões: Trilhas e ENEM.**
 
@@ -26,17 +26,17 @@ pedagogicamente significativo**.
 
 A plataforma começou pelas trilhas de escrita. A versão ENEM veio depois, construída sobre
 a mesma base de percurso, versionamento e mediação docente. São duas versões do mesmo
-produto — mesma arquitetura, mesmo princípio pedagógico, públicos e entregas distintas.
+produto - mesma arquitetura, mesmo princípio pedagógico, públicos e entregas distintas.
 
 | | **ARARA Trilhas** | **ARARA ENEM** |
 |---|---|---|
-| Entrega | Percurso autoral registrado, Raio-X do Texto, devolutiva pedagógica | Nota por competência C1–C5, devolutiva e plano de reescrita |
+| Entrega | Percurso autoral registrado, Raio-X do Texto, devolutiva pedagógica | Nota por competência C1-C5, devolutiva e plano de reescrita |
 | Público | Escolas, universidades, bibliotecas, projetos culturais | Estudantes de ensino médio, cursinhos, programas de acesso |
 | Estado | Em produção | Em produção desde 22/06/2026 |
 
 ---
 
-## 4. ARARA Trilhas — três movimentos
+## 4. ARARA Trilhas - três movimentos
 
 ### Trilha Poética
 
@@ -57,7 +57,7 @@ continue com a própria voz.
 
 ### Trilha Acadêmica e Motor H2
 
-A experiência começa pela situação da escrita — gênero, tema, objetivo, interlocutor.
+A experiência começa pela situação da escrita - gênero, tema, objetivo, interlocutor.
 
 O texto passa por autosave, checkpoints e histórico de versões. O Motor H2 gera um **Raio-X
 do Texto** com observações sobre estrutura, coesão, argumentação, estilo, situação de
@@ -75,7 +75,7 @@ assistência da Arara para mediação pedagógica.
 
 ---
 
-## 5. ARARA ENEM — correção com ancoragem na matriz
+## 5. ARARA ENEM - correção com ancoragem na matriz
 
 O exame submete cada redação a **duas correções independentes**, e a nota final é a **média
 aritmética** das duas. O ARARA ENEM reproduz esse desenho:
@@ -101,15 +101,15 @@ técnica.
 
 Achados públicos:
 
-- **peritos humanos divergem em mais de 100 pontos na nota total em 37% das redações** — o
+- **peritos humanos divergem em mais de 100 pontos na nota total em 37% das redações** - o
   piso realista de concordância para qualquer corretor. Teto humano medido: QWK 0,693;
 - **encontramos e corrigimos um erro nosso** que arredondava para baixo em 47% das notas de
   competência, subtraindo em média 113 pontos do estudante;
 - **e encontramos um erro na nossa própria régua:** a referência humana da bancada havia
   sido montada com o mesmo arredondamento defeituoso, o que nos favorecia. Corrigida, o
-  corretor fica em 58–74% do teto humano e sua vantagem sobre um contador de caracteres
+  corretor fica em 58-74% do teto humano e sua vantagem sobre um contador de caracteres
   deixa de ser estatisticamente demonstrável neste n. Removida a deflação, chega a 95% do
-  teto — a calibração é a prioridade atual.
+  teto - a calibração é a prioridade atual.
 
 **O que segue aberto:** média de 762 nas redações que tiraram 1000 de verdade, 44 pontos de
 deflação residual e a Competência 2 como a mais fraca.
@@ -149,8 +149,8 @@ modular.
 ### Em produção
 
 - autenticação segura e validação de acesso;
-- ARARA Trilhas — Poética, Acadêmica, Motor H2;
-- ARARA ENEM — correção C1–C5 com dupla leitura;
+- ARARA Trilhas - Poética, Acadêmica, Motor H2;
+- ARARA ENEM - correção C1-C5 com dupla leitura;
 - dashboard;
 - primeira camada do Educador;
 - base estrutural de comunidade.
@@ -180,4 +180,4 @@ autoria.
 - [arara.cordel2pontozero.com](https://arara.cordel2pontozero.com)
 - [www.cordel2pontozero.com](https://www.cordel2pontozero.com)
 - contato@cordel2pontozero.com
-- Salvador — Bahia — Brasil
+- Salvador - Bahia - Brasil

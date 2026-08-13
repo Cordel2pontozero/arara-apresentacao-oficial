@@ -7,7 +7,7 @@ aumentar automação.
 
 ---
 
-## Entregue — Núcleo autoral (ARARA Trilhas)
+## Entregue - Núcleo autoral (ARARA Trilhas)
 
 **Estado:** em produção.
 
@@ -20,18 +20,18 @@ aumentar automação.
 - primeira área do Educador;
 - telemetria básica.
 
-## Entregue — Correção ENEM (ARARA ENEM)
+## Entregue - Correção ENEM (ARARA ENEM)
 
 **Estado:** em produção desde 22 de junho de 2026.
 
 - serviço de correção em domínio próprio da Cordel 2.0;
 - duas leituras independentes da mesma redação;
-- pontuação por competência C1–C5 ancorada na matriz do INEP;
+- pontuação por competência C1-C5 ancorada na matriz do INEP;
 - média aritmética entre leituras, sem arredondamento para baixo;
 - devolutiva por competência e plano de reescrita;
 - integração validada em produção com redação real.
 
-## Entregue — Bancada de evidências
+## Entregue - Bancada de evidências
 
 **Estado:** congelada em julho de 2026.
 
@@ -48,19 +48,19 @@ Ver [EVIDENCIAS.md](./EVIDENCIAS.md).
 
 ---
 
-## Horizonte 0 — Calibração da deflação `prioridade atual`
+## Horizonte 0 - Calibração da deflação `prioridade atual`
 
 A errata da bancada mostrou que a capacidade de discriminar existe, mas a régua está
-deslocada: removida a deflação, o corretor vai de 58–74% para **95% do teto humano**.
+deslocada: removida a deflação, o corretor vai de 58-74% para **95% do teto humano**.
 Enquanto isso não for corrigido, a vantagem sobre uma baseline trivial não é demonstrável.
 
 - calibrar o viés de −112,9 na nota total;
 - eliminar os 44 pontos de deflação residual;
-- destravar a faixa de 200 em C3, C4 e C5 — hoje 0 em 99 redações nota 1000;
+- destravar a faixa de 200 em C3, C4 e C5 - hoje 0 em 99 redações nota 1000;
 - reforçar a avaliação de repertório (Competência 2), a mais distante do julgamento humano;
 - reexecutar a bancada com a régua corrigida e publicar o comparativo.
 
-## Horizonte 1 — Aprofundar a mediação
+## Horizonte 1 - Aprofundar a mediação
 
 - recorte por turma;
 - timeline de evolução;
@@ -70,7 +70,7 @@ Enquanto isso não for corrigido, a vantagem sobre uma baseline trivial não é 
 - painéis de acompanhamento;
 - Arara colega Educador.
 
-## Horizonte 2 — Ampliar a experiência ENEM
+## Horizonte 2 - Ampliar a experiência ENEM
 
 - dashboard de evolução por competência;
 - banco de temas com textos motivadores;
@@ -78,7 +78,7 @@ Enquanto isso não for corrigido, a vantagem sobre uma baseline trivial não é 
 - relatórios institucionais por turma;
 - ampliação do corpus de validação.
 
-## Horizonte 3 — Camada semântica governada
+## Horizonte 3 - Camada semântica governada
 
 - assistência semântica com escopo definido;
 - prompts versionados;
@@ -88,7 +88,7 @@ Enquanto isso não for corrigido, a vantagem sobre uma baseline trivial não é 
 - explicabilidade das devolutivas;
 - revisão humana obrigatória nos fluxos sensíveis.
 
-## Horizonte 4 — Comunidade e interoperabilidade
+## Horizonte 4 - Comunidade e interoperabilidade
 
 - canais por turma;
 - diálogo entre turmas;

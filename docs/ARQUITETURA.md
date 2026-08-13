@@ -4,7 +4,7 @@
 
 O ARARA utiliza uma arquitetura web modular, centrada em Supabase e Next.js, com separação entre experiência de escrita, persistência do percurso, análise e acompanhamento docente.
 
-As duas versões do produto — **Trilhas** e **ENEM** — compartilham a mesma aplicação, o mesmo modelo de percurso e o mesmo controle de acesso. O que as distingue é a camada de análise acionada: o **Motor H2** nas Trilhas, o **serviço de correção** na versão ENEM.
+As duas versões do produto - **Trilhas** e **ENEM** - compartilham a mesma aplicação, o mesmo modelo de percurso e o mesmo controle de acesso. O que as distingue é a camada de análise acionada: o **Motor H2** nas Trilhas, o **serviço de correção** na versão ENEM.
 
 ```text
 apps/web/          aplicação Next.js
@@ -82,8 +82,8 @@ navegador**, acionado pela aplicação por meio de rota autenticada.
 Desenho da camada:
 
 - **duas leituras independentes** da mesma redação, executadas separadamente;
-- pontuação por competência **C1–C5**, ancorada na matriz de referência do INEP;
-- **média aritmética** entre as leituras, sem arredondamento para baixo — o mesmo
+- pontuação por competência **C1-C5**, ancorada na matriz de referência do INEP;
+- **média aritmética** entre as leituras, sem arredondamento para baixo - o mesmo
   procedimento que o exame aplica;
 - validação estrita do contrato de resposta antes da persistência;
 - resultado gravado como execução de análise, vinculado à versão do texto.

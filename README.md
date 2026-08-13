@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://images.squarespace-cdn.com/content/v1/679647ea404fcd2e5824402c/54e96729-74d6-4ad6-aa92-57d1e0f0eb49/principios%2Bhorizontal.png" alt="Identidade oficial do aplicativo ARARA — entre Sentimentos e Palavras" width="100%">
+<img src="https://images.squarespace-cdn.com/content/v1/679647ea404fcd2e5824402c/54e96729-74d6-4ad6-aa92-57d1e0f0eb49/principios%2Bhorizontal.png" alt="Identidade oficial do aplicativo ARARA - entre Sentimentos e Palavras" width="100%">
 
-# ARARA — Autoria em movimento
+# ARARA - Autoria em movimento
 
 ### Plataforma brasileira de escrita, acompanhamento pedagógico e letramento em IA
 
@@ -29,7 +29,7 @@ caminho de quem aprende a imaginar, argumentar, revisar e assumir a própria voz
 
 O **ARARA** é a plataforma autoral e pedagógica do ecossistema Cordel 2.0. Ela combina
 experiências de escrita, versionamento, indicadores formativos e mediação docente para
-apoiar a autoria — sem transformar a inteligência artificial em uma autora oculta.
+apoiar a autoria - sem transformar a inteligência artificial em uma autora oculta.
 
 Ele não chega sozinho: o ARARA é o meio de **oficinas, programas e trilhas formativas** de
 letramento digital, leitura e escrita conduzidas pela Cordel 2.0. O que se contrata é
@@ -44,14 +44,14 @@ formação; o software é como ela acontece.
 
 O ARARA nasceu como plataforma de trilhas de escrita. A versão ENEM veio depois, sobre a
 mesma base de percurso, versionamento e mediação docente. **São duas versões do mesmo
-produto** — por isso vivem na mesma origem, compartilham arquitetura e princípio
+produto** - por isso vivem na mesma origem, compartilham arquitetura e princípio
 pedagógico, e se diferenciam pelo que entregam e para quem.
 
 | | **ARARA Trilhas** | **ARARA ENEM** |
 |---|---|---|
 | **O que é** | Trilhas de escrita poética e acadêmica com acompanhamento docente | Correção de redação dissertativo-argumentativa com ancoragem na matriz do ENEM |
 | **Para quem** | Escolas, universidades, bibliotecas, projetos culturais, laboratórios de escrita | Estudantes de ensino médio, cursinhos, redes de preparação, projetos de acesso ao ensino superior |
-| **Entrega** | Percurso autoral registrado, Raio-X do Texto, devolutiva pedagógica | Nota por competência (C1–C5), devolutiva por competência e plano de reescrita |
+| **Entrega** | Percurso autoral registrado, Raio-X do Texto, devolutiva pedagógica | Nota por competência (C1-C5), devolutiva por competência e plano de reescrita |
 | **Diferencial** | Torna o processo de escrita visível e recuperável | Dupla leitura independente e média aritmética, como no ENEM real |
 | **Estado** | Em produção | **Em produção desde 22/06/2026** |
 | **Evidência** | Motor H2 com testes dedicados | [385 redações periciadas por 2 especialistas humanos](./docs/EVIDENCIAS.md) |
@@ -104,7 +104,7 @@ prioridades e próximos passos.
 
 ### Espaço do Educador
 
-A área docente foi desenhada para ampliar a mediação — não para criar vigilância
+A área docente foi desenhada para ampliar a mediação - não para criar vigilância
 algorítmica. Ela permite acompanhar textos e poemas em percurso, versões e checkpoints,
 leituras H2, conflitos de escrita, focos de revisão, indicadores poéticos e devolutivas
 vinculadas ao trabalho do estudante.
@@ -122,7 +122,7 @@ de correção em domínio próprio e validação contra corpus pericial.
 ### Como corrige
 
 O ENEM real submete cada redação a **duas correções independentes**, e a nota final é a
-**média aritmética** das duas — é por isso que notas como 860, 940 e 980 existem. O ARARA
+**média aritmética** das duas - é por isso que notas como 860, 940 e 980 existem. O ARARA
 ENEM reproduz esse desenho:
 
 1. leitura da proposta e do texto do estudante;
@@ -130,7 +130,7 @@ ENEM reproduz esse desenho:
 3. pontuação por competência, **C1 a C5**, ancorada na matriz de referência do INEP;
 4. média aritmética entre as duas leituras, sem arredondamento para baixo;
 5. devolutiva por competência;
-6. plano de reescrita — o produto final é a próxima versão, não a nota.
+6. plano de reescrita - o produto final é a próxima versão, não a nota.
 
 ### O que o diferencia
 
@@ -138,7 +138,7 @@ ENEM reproduz esse desenho:
   opaca.
 - **Dupla leitura independente**, o mesmo mecanismo que o exame usa para reduzir o peso da
   subjetividade de um único corretor.
-- **Validação contra corpus pericial** — não contra a própria intuição da equipe. Ver
+- **Validação contra corpus pericial** - não contra a própria intuição da equipe. Ver
   [Evidências](./docs/EVIDENCIAS.md).
 - **A redação não é gerada.** O sistema corrige e orienta a reescrita; ele não escreve a
   redação do estudante. Essa é uma decisão de produto, não uma limitação técnica.
@@ -159,7 +159,7 @@ evidências do ARARA ENEM foi construída contra **redações reais periciadas p
 especialistas humanos**, não contra exemplos escolhidos pela própria equipe.
 
 - **385 redações** de ENEM, cada uma corrigida por **dois especialistas humanos**
-  independentes, seguindo o Manual do Corretor — corpus acadêmico público produzido por
+  independentes, seguindo o Manual do Corretor - corpus acadêmico público produzido por
   universidade brasileira;
 - **99 redações nota 1000** reais, como teste do topo;
 - **180 redações pareadas** entre a grade padrão e a inclusiva;
@@ -167,8 +167,8 @@ especialistas humanos**, não contra exemplos escolhidos pela própria equipe.
   relatório descreva um estado congelado e verificável.
 
 **Peritos humanos discordam mais do que se imagina.** Em **37% das redações**, os dois
-especialistas diferiram em mais de 100 pontos **na nota total**. O teto humano medido —
-perito contra perito — é **QWK 0,693**. Isso estabelece o piso realista de concordância que
+especialistas diferiram em mais de 100 pontos **na nota total**. O teto humano medido -
+perito contra perito - é **QWK 0,693**. Isso estabelece o piso realista de concordância que
 qualquer corretor, humano ou automático, pode alcançar.
 
 **Encontramos e corrigimos um erro que prejudicava o estudante.** Ao combinar as duas
@@ -178,9 +178,9 @@ mudança: redações acima de 200 pontos do humano foram de 7 para 9, em 385.
 
 **E encontramos um erro na nossa própria régua.** A referência humana da bancada tinha sido
 montada com o mesmo arredondamento defeituoso que investigávamos, o que nos fazia parecer
-melhores. Corrigida a régua, o corretor está em **58–74% do teto humano**, e sua vantagem
+melhores. Corrigida a régua, o corretor está em **58-74% do teto humano**, e sua vantagem
 sobre um preditor que só conta caracteres **deixa de ser estatisticamente demonstrável**
-neste n e nesta calibração. Removida a deflação, o mesmo corretor chega a 95% do teto — a
+neste n e nesta calibração. Removida a deflação, o mesmo corretor chega a 95% do teto - a
 capacidade de discriminar existe; o que está errado é a calibração, e essa é a prioridade
 atual.
 
@@ -224,7 +224,7 @@ Essa separação favorece transparência, auditabilidade e uso pedagógico respo
 ├──────────────────────────────────────────────────────────────┤
 │ Percurso: autosave · checkpoints · versões · analysis_runs   │
 ├──────────────────────────────────────────────────────────────┤
-│ Correção ENEM: serviço dedicado · dupla leitura · C1–C5      │
+│ Correção ENEM: serviço dedicado · dupla leitura · C1-C5      │
 ├──────────────────────────────────────────────────────────────┤
 │ Dados: Supabase SSR · Postgres · RPCs · Edge Functions       │
 ├──────────────────────────────────────────────────────────────┤
@@ -252,8 +252,8 @@ Detalhes técnicos que importam:
 
 - autenticação por magic link e validação de acesso por check-in;
 - vínculo com turma ou usuário externo;
-- **ARARA Trilhas** — Poética, Acadêmica, Motor H2 e Raio-X do Texto;
-- **ARARA ENEM** — correção C1–C5 com dupla leitura;
+- **ARARA Trilhas** - Poética, Acadêmica, Motor H2 e Raio-X do Texto;
+- **ARARA ENEM** - correção C1-C5 com dupla leitura;
 - autosave, checkpoints e histórico;
 - dashboard do estudante;
 - primeira camada do Espaço do Educador;
@@ -273,7 +273,7 @@ Detalhes técnicos que importam:
 
 A Cordel 2.0 é uma startup de **formação, consultoria e design pedagógico**. O que
 entregamos é aprendizado; o software é o meio pelo qual ele acontece. O ARARA não é vendido
-como licença de ferramenta solta — ele sustenta oficinas, programas e trilhas formativas de
+como licença de ferramenta solta - ele sustenta oficinas, programas e trilhas formativas de
 letramento digital, leitura e escrita, com acompanhamento humano.
 
 | Frente | Como o ARARA entra |
@@ -282,7 +282,7 @@ letramento digital, leitura e escrita, com acompanhamento humano.
 | **B2G** | Secretarias, políticas públicas e programas territoriais: oficinas de letramento digital e escrita em rede pública, com relatórios institucionais de percurso. |
 | **B2C** | Estudantes e escritores: acesso direto às trilhas e ao **simulador de redação ENEM**, com devolutiva por competência e plano de reescrita. |
 
-O **simulador de redação ENEM** atende às três frentes — é o mesmo motor de correção,
+O **simulador de redação ENEM** atende às três frentes - é o mesmo motor de correção,
 mudando o desenho da formação em volta dele.
 
 ### Para quem
@@ -308,7 +308,7 @@ O ARARA é um dos cinco softwares próprios da Cordel 2.0:
 
 | Software | O que é |
 |---|---|
-| **ARARA** | Trilhas de escrita e correção ENEM — *este repositório* |
+| **ARARA** | Trilhas de escrita e correção ENEM - *este repositório* |
 | [**INANNA**](https://github.com/Cordel2pontozero/Inanna-apresentacao-oficial) | Jogo de cordel que torna visível a previsão da próxima palavra |
 | [**TICA**](https://github.com/Cordel2pontozero/tica-apresentacao-oficial) | Chatbot reflexivo de escrita guiada |
 | [**Registro Coletivo**](https://github.com/Cordel2pontozero/registro-coletivo-apresentacao) | Território, xilogravura e construtor de espaços culturais |
@@ -321,7 +321,7 @@ O ARARA é um dos cinco softwares próprios da Cordel 2.0:
 
 **Cordel 2.0 - Educação, Cultura e Inovação**
 Formação em letramento digital com softwares próprios
-Salvador — Bahia — Brasil
+Salvador - Bahia - Brasil
 
 [www.cordel2pontozero.com](https://www.cordel2pontozero.com) · [contato@cordel2pontozero.com](mailto:contato@cordel2pontozero.com)
 
@@ -329,7 +329,7 @@ Salvador — Bahia — Brasil
 
 ## Licenciamento
 
-O **software ARARA é proprietário** — todos os direitos reservados. Este repositório contém
+O **software ARARA é proprietário** - todos os direitos reservados. Este repositório contém
 apenas a página de apresentação do produto. Textos institucionais e materiais autorais
 seguem **CC BY-ND 4.0**. Detalhes em [LICENSE.md](LICENSE.md).
 
